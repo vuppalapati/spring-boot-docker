@@ -112,7 +112,7 @@
 						</image>
                         <!--mysql container-->
 						<image>
-							<name>mysql</name>
+							<name>mysql:5.7.13</name>
                             <alias>mysqldb</alias>
 							<run>
                                 <!--expose port for dn-->
